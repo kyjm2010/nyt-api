@@ -1,0 +1,24 @@
+{
+  "name": "nyt-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyjm2010/nyt-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://kyjm2010.github.io/nyt-api",
+  "bugs": {
+    "url": "https://github.com/kyjm2010/nyt-api/issues"
+  },
+  "homepage": "https://github.com/kyjm2010/nyt-api#readme",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}

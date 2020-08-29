@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NYT API</title>
+        <link rel="stylesheet" href="css/nyt.css">
+        <script src="js/moment.js"></script>
+        <script defer src="js/nyt.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="overlay">
+                <a href="https://www.nytimes.com/">
+                    <h1 class="main-title">The New York Times</h1>
+                </a>
+            </div>
+        </header>
+        <div id="selector">
+            <label for="section"></label>
+            <select name="section" id="section">
+                <option value="home">Home</option>
+                <option value="arts">Arts</option>
+                <option value="business">Business</option>
+                <option value="dining">Dining</option>
+                <option value="fashion">Fashion</option>
+                <option value="health">Health</option>
+                <option value="magazine">Magazine</option>
+                <option value="nyregion">NY Region</option>
+                <option value="national">National</option>
+                <option value="opinion">Opinion</option>
+                <option value="politics">Politics</option>
+                <option value="realestate">Real Estate</option>
+                <option value="science">Science</option>
+                <option value="sports">Sports</option>
+                <option value="technology">Technology</option>
+                <option value="world">World</option>
+            </select>
+            <button id="refresh">Refresh</button>
+        </div>
+        <div id="loader"></div>
+        <div id="stories"></div>
+        <h3>Brought to you by the students of Clark College</h3>
+    </body>
+
+</html>
